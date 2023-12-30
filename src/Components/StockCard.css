@@ -1,0 +1,113 @@
+/* src/components/StockCard.css */
+
+.stock-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
+  
+  .stock-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .stock-card:hover {
+    transform: scale(1.05);
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+  }
+
+  /* src/components/StockCard.css */
+.dashboard-container {
+  /* Common styles for both themes */
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.light {
+  background-color: #ffffff; /* Light theme background color */
+  color: #000000; /* Light theme text color */
+}
+
+.dark {
+  background-color: #333333; /* Dark theme background color */
+  color: #ffffff; /* Dark theme text color */
+}
+
+
+/* StockCard.css */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.dashboard-widgets {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.widget {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: grab;
+}
+
+.stock-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stock-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input,
+select {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: #333;
+  color: white;
+}
+
+/* Add more styles as needed */
+
+
+  
